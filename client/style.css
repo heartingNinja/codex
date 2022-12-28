@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400;500;700;800;900&display=swap");
+import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400;500;700;800;900&display=swap");
 
 * {
   margin: 0;
@@ -69,8 +69,7 @@ body {
   height: 36px;
   border-radius: 5px;
 
-  /* Cyberpunk purple gradient */
-  background: linear-gradient(to right, #5436DA, #9E10AC);
+  background: #5436DA;
 
   display: flex;
   justify-content: center;
@@ -78,8 +77,7 @@ body {
 }
 
 .ai .profile {
-  /* Cyberpunk green gradient */
-  background: linear-gradient(to right, #10A37F, #0E7C61);
+  background: #10a37f;
 }
 
 .profile img {
@@ -110,10 +108,9 @@ body {
 }
 
 /* hides scrollbar */
-.message::-webkit-scroll
-
-
-
+.message::-webkit-scrollbar {
+  display: none;
+}
 
 form {
   width: 100%;
